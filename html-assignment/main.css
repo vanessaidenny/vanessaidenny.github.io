@@ -1,5 +1,6 @@
 html {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 100%;
 }
 
@@ -12,8 +13,8 @@ body {
 
 header {
   background-color: white;
-  color:rgb(10, 100, 37);
-  padding: 30px;
+  color: rgb(10, 100, 37);
+  padding: 20px;
   text-align: center;
 }
 
@@ -35,14 +36,18 @@ blockquote {
 }
 
 footer {
+  align-items: center;
   background-color: white;
-  bottom: 0;
-  color:black;
-  position: absolute;
+  color: black;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  padding: 0;
+  position: relative;
   width: 100%;
 }
 
 footer .copyright {
-  text-align: center;
   font-size: 12px;
+  margin: 0;
 }
