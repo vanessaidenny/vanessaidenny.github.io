@@ -1,5 +1,5 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/vanessaidenny/bowling-game-score?color=blueviolet&style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/vanessaidenny/bowling-game-score?color=brightgreen&style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/vanessaidenny/vanessaidenny.github.io?color=blueviolet&style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/vanessaidenny/vanessaidenny.github.io?color=brightgreen&style=plastic)
 
 # 💻 HTML Semantics
 
