@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Vanessa Isabela Denny</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="shortcut icon" type="image/png" href="img/navicon.png">
     <script src="main.js"></script>
   </head>
 
@@ -13,61 +14,84 @@
     <header>
       <h1>Vanessa Isabela Denny</h1>
     </header>
-    <section>
-      <article>
-        <h2>About Me</h2>
-        <p>
-          First, let me introduce myself. My name is Vanessa Isabela Denny, and
-          I am 29 years old. <em><strong>I was born and lived in Brazil</em></strong>
-          all these years, and moved to Ottawa almost a month ago.
-        </p>
-        <p>
-          After finishing high school, I entered college to study <em>Business
-          Management</em> and developed myself in the administrative area for just
-          over six years; during these years I was always curious and excited
-          to study and do extra work related to Information Systems. So, I
-          returned to college to study <em>Systems Analysis and Development</em> where I
-          was selected to be a math tutor to help other students, and I had
-          the opportunity to do internships in multinational companies.
-        </p>
-        <p>
-          In my last job, I was able to gain experience with application
-          development, where I stayed for two years and developed a new part of
-          a bank mobile app based on projects by Customer Experience
-          specialists. Working with them, I was able to understand the
-          importance of analysis and research on interface design and user
-          experience design, and in this exchange of knowledge I developed a
-          great interest in learning more about design.
-        </p>
-        <p>
-          Then, I started the <abbr title="Interactive Media Design">IMD</abbr>
-          program to continue sharpening my skills in the
-          technology field and obtain great knowledge in design techniques and
-          tools. Also, I am very interested to know the Canadian culture and
-          improve my English skills, specially in communication.
-        </p>
-        <p>
-          One thing that I am passionate about is dancing. It is my 23<sup>th</sup>-year
-          practicing this art, and I am looking forward to keep dancing here in Ottawa,
-          ballet, jazz, and street dance. I was a professional dancer with scholarship
-          in a company in Brazil for ten years and used to be a teacher for children, for
-          no longer than five years and I had big challenges and opportunities like
-          participating in a competition in Germany in 2015. It's something I don't really
-          see myself getting away from for the rest of my life.
-        </p>
-        <br>
-        <p>
-          A film biography I really enjoyed watching was about Stephen Hawking, who I believe
-          has many wise teachings. One of the reflections that caught my attention the most was:
-        </p>
-      </article>
-      <blockquote>
-        Remember to look up at the stars and not down at your feet. Try to make sense of what you
-        see and wonder about what makes the universe exist. Be curious. And however difficult life
-        may seem, there is always something you can do and succeed at. It matters that you don't
-        just give up. - <cite>Stephen Hawking</cite>
-      </blockquote>
-    </section>
+
+    <div class="flex-container">
+      <nav>
+        <ul>
+          <li><a class="page-link" href="index.html">Home</a></li>
+          <li><a class="page-link" href="notes.html">Notes</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <article>
+          <div class="img-container">
+            <img class="img-photo" src="img/my-photo.jpg" alt="Vanessa's Photo">
+          </div>
+          <h2>About Me</h2>
+          <p>
+            First, let me introduce myself. My name is Vanessa Isabela Denny, and
+            I am 29 years old. <em><strong>I was born and lived in Brazil</em></strong>
+            all these years, and moved to Ottawa almost a month ago.
+          </p>
+          <p>
+            After finishing high school, I entered college to study <em>Business
+            Management</em> and developed myself in the administrative area for just
+            over six years; during these years I was always curious and excited
+            to study and do extra work related to Information Systems. So, I
+            returned to college to study <em>Systems Analysis and Development</em> where I
+            was selected to be a math tutor to help other students, and I had
+            the opportunity to do internships.
+          </p>
+          <p>
+            In my last job, I was able to gain experience with application
+            development, where I stayed for two years and developed a new part of
+            a bank mobile app based on projects by Customer Experience
+            specialists. Working with them, I was able to understand the
+            importance of analysis and research on interface design and user
+            experience design, and in this exchange of knowledge I developed a
+            great interest in learning more about design.
+          </p>
+          <p>
+            Then, I started the <abbr title="Interactive Media Design">IMD</abbr>
+            program to continue sharpening my skills in the
+            technology field and obtain great knowledge in design techniques and
+            tools. Also, I am very interested to know the Canadian culture and
+            improve my English skills, specially in communication.
+          </p>
+          <p>
+            One thing that I am passionate about is dancing. It is my 23<sup>th</sup>-year
+            practicing this art, and I am looking forward to keep dancing here in Ottawa,
+            ballet, jazz, and street dance. I was a professional dancer with scholarship
+            in a company in Brazil for ten years and used to be a teacher for children, for
+            no longer than five years and I had big challenges and opportunities like
+            participating in a competition in Germany in 2015. It's something I don't really
+            see myself getting away from for the rest of my life.
+          </p>
+          <br>
+          <p>
+            A film biography I really enjoyed watching was about Stephen Hawking, which
+            has many wise teachings. One of the reflections that caught my attention the most was:
+          </p>
+        </article>
+        <article>
+          <blockquote>
+            Remember to look up at the stars and not down at your feet. Try to make sense of what you
+            see and wonder about what makes the universe exist. Be curious. And however difficult life
+            may seem, there is always something you can do and succeed at. It matters that you don't
+            just give up. - <cite>Stephen Hawking</cite>
+          </blockquote>
+          <br>
+          <h3>My Hobbies</h3>
+          <ul class="hobbies-list">
+              <li>Walking and playing with my dogs</li>
+              <li>Watching videos about architecture, geography and travel</li>
+              <li>Bicycling</li>
+          </ul>
+        </article>
+      </section>
+    </div>
+
     <footer>
       <p class="copyright">&copy; 2022 Vanessa Denny</p>
     </footer>

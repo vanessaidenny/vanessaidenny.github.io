@@ -1,12 +1,15 @@
 html {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  width: 100%;
+  flex-direction: column;
 }
 
 body {
   background-color: rgb(10, 100, 37);
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
 }
@@ -14,17 +17,53 @@ body {
 header {
   background-color: white;
   color: rgb(10, 100, 37);
-  padding: 20px;
+  padding: 16px;
   text-align: center;
 }
 
-section {
-  text-align: justify;
-  padding: 18px 4%;
+nav {
+  background-color: white;
+  padding: 0 8px;
 }
 
-section p {
+.page-link{
+  color: rgb(10, 100, 37);
+  font-weight: 500;
+}
+
+.page-link:hover {
+  color: white;
+  background-color: rgb(157, 60, 184);
+}
+
+.flex-container {
+  display: flex;
+}
+
+section {
+  padding: 18px 4%;
+  text-align: justify;
+}
+
+dd {
+  padding-bottom: 8px;
+}
+
+p, dl {
   text-indent: 30px;
+}
+
+.hobbies-list li {
+  list-style-type: square;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.img-photo {
+  box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+  width: 300px;
 }
 
 .link {
