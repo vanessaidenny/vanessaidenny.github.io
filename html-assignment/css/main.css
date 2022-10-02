@@ -40,8 +40,8 @@ nav {
   display: flex;
 }
 
-section {
-  padding: 18px 4%;
+article {
+  padding: 18px 40px;
   text-align: justify;
 }
 
